@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
-  <?php include_once 'controller/bookController.php'; ?>
-  <?php include 'view/bookList.php'; ?>
+  <?php include_once __DIR__ . '/controller/bookController.php'; ?>
+  <?php include __DIR__ . '/view/bookList.php'; ?>
 </body>
 </html>
